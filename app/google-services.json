@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "276655753120",
+    "firebase_url": "https://mad-movie-b8cf4-default-rtdb.firebaseio.com",
+    "project_id": "mad-movie-b8cf4",
+    "storage_bucket": "mad-movie-b8cf4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276655753120:android:022d4bd51ab61601fec6c5",
+        "android_client_info": {
+          "package_name": "com.chathura.madmovie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "276655753120-u0uaejvigptvouo0cvtg141jileqc6tl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMHayeuqb5Dyptpx_KqKqZqaKDhxPt9eg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "276655753120-u0uaejvigptvouo0cvtg141jileqc6tl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MadMovie" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/pink_orange</item>
+        <item name="colorPrimaryVariant">@color/merun</item>
+        <item name="colorOnPrimary">@color/yellow</item>
+        <item name="android:textColor">#2d3436</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/pink_orange</item>
+        <item name="colorSecondaryVariant">@color/merun</item>
+        <item name="colorOnSecondary">@color/yellow</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
