@@ -48,17 +48,17 @@ public class MovieDetails extends AppCompatActivity {
             public void onResponse(JSONObject response) {
                 if(response!=null){
                     dialog.dismiss();
-                    lblTitle = findViewById(R.id.lblTitle);
-                    lblYear = findViewById(R.id.lblYear);
-                    lblRating = findViewById(R.id.lblRating);
-                    lblGenre = findViewById(R.id.lblGenre);
-                    lblActors = findViewById(R.id.lblActors);
-                    lblPlot = findViewById(R.id.lblPlot);
-                    lblType = findViewById(R.id.lblType);
-                    lblRuntime = findViewById(R.id.lblRuntime);
-                    lblDirector = findViewById(R.id.lblDirector);
-                    lblCountry = findViewById(R.id.lblCountry);
-                    lblAwards = findViewById(R.id.lblAwards);
+                    lblTitle = findViewById(R.id.textViewMovieName);
+                    lblYear = findViewById(R.id.textYearValue);
+                    lblRating = findViewById(R.id.textimdbValue);
+                    lblGenre = findViewById(R.id.textGenreValue);
+                    lblActors = findViewById(R.id.textActorsValue);
+                    lblPlot = findViewById(R.id.textPlotValue);
+                    lblType = findViewById(R.id.textTypeValue);
+                    lblRuntime = findViewById(R.id.textRunTimeValue);
+                    lblDirector = findViewById(R.id.textDirectorValue);
+                    lblCountry = findViewById(R.id.textCountryValue);
+                    lblAwards = findViewById(R.id.textAwardsValue);
 
                     try {
                         lblTitle.setText(response.getString("Title"));
