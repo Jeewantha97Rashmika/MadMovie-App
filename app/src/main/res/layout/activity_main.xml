@@ -16,46 +16,51 @@
         style="@style/MaterialSearchBarLight"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:background="@drawable/custom_input"
+        android:background="@drawable/gradieint1"
         android:hint="Search Movie"
         android:padding="10dp"
         android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.06"
         app:mt_hint="Movie Title"
         app:mt_maxSuggestionsCount="10"
-        app:mt_speechMode="true"
-        tools:layout_editor_absoluteX="9dp" />
+        app:mt_speechMode="true" />
 
     <Button
-        android:id="@+id/btnSearch"
         android:layout_width="280dp"
         android:layout_height="40dp"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/custom_button"
+        android:background="@drawable/custom_input"
         android:text="Search"
         android:textColor="@color/white"
+        app:backgroundTint="#3187CA"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtMovieTitle" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.208" />
 
     <TextView
         android:id="@+id/txtAbout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
-        android:background="@drawable/custom_input"
+        android:layout_marginBottom="88dp"
+        android:background="@drawable/gradieint1"
         android:paddingLeft="10dp"
         android:paddingTop="3dp"
         android:paddingRight="10dp"
         android:paddingBottom="3dp"
         android:text="ABOUT"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnSearch"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.924" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -13,22 +13,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MadMovie">
-        <activity android:name=".SignupActivity"></activity>
+        <activity android:name=".SignupActivity">
+
+
+        </activity>
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-1842918695931268~5465529575" />
 
-        <activity
-            android:name=".MovieDetails"
-            android:parentActivityName=".MovieList" />
+
         <activity
             android:name=".MovieList"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".About"
             android:parentActivityName=".MainActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MovieDetails">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

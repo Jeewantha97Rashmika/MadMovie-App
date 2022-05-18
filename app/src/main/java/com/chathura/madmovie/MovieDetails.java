@@ -25,7 +25,6 @@ public class MovieDetails extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_movie_details);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
         Bundle bundle = getIntent().getExtras();
         String imdbId = bundle.getString("imdbId");
 
@@ -33,9 +32,6 @@ public class MovieDetails extends AppCompatActivity {
 
         final String API_KEY = "29769d9e";
         final String URL = "https://www.omdbapi.com/?i="+imdbId+"&apikey="+API_KEY;
-
-
-
 
 
         ProgressDialog dialog = new ProgressDialog(this);
